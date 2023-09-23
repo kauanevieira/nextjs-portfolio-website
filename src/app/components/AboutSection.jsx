@@ -50,9 +50,9 @@ export const AboutSection = () => {
     })
   }
   return (
-    <section className="text-white">
+    <section id='about' className="text-white">
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-        <Image src='/images/about-image.png' width={500} height={500} />
+        <Image src='/images/about-image1.jpg' width={500} height={500} />
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-white mb-4'>Sobre mim</h2>
           <p className='text-base lg:text-lg'>Sou desenvolvedora full stack que adora criar aplicações web interativas e responsivas. Tenho experiência trabalhando com JavaScript, React, Redux, Node.js, Express, PostgreSQL, Sequelize, HTML, CSS e Git. Tenho facilidade em aprender e estou constantemente buscando expandir meu conhecimento e conjunto de habilidades. Adoro trabalhar em equipe e estou entusiasmado para colaborar com outras pessoas na criação de aplicações incríveis.</p>
